@@ -1,10 +1,13 @@
-@extends('layouts.app')
+<html>
+<head>
+    <title>Book List</title>
+</head>
 
-@section('title')
-    Book List
-@endsection
+<body>
+<div style="background: #388BF2; font-size: 24px; color: white">
+    Simple library app
+</div>
 
-@section('content')
 <div style="margin-top: 20px; margin-bottom: 20px">
     <table border="1">
         <a href="/books/add"> Add new book</a>
@@ -41,4 +44,9 @@
         </tbody>
     </table>
 </div>
-@endsection
+
+<div style="background: #31B057; font-size: 20px; color: white">
+    Created with love and willingness to learn
+</div>
+</body>
+</html>
